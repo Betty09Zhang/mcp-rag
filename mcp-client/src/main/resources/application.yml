@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: spring-cloud-zuul-gateway
+  ai:
+    openai:
+      api-key: *********
+      base-url: https://api.deepseek.com
+      chat:
+        options:
+          model: deepseek-chat
+
+server:
+  port: 7080
